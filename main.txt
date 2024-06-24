@@ -50,3 +50,16 @@ num1, num2, res = 100,200,0
 ##메인 코드
 res = div_num(num1, num2)
 print(num1, '/', num2, '=', res)
+
+
+## 제곱 함수 선언부
+def pow_num(n1,n2):
+    return n1**n2
+
+## 전역 변수부
+num1, num2, res = 100,200,0
+
+
+##메인 코드
+res = pow_num(num1, num2)
+print(num1, '**', num2, '=', res)    return n1**n2
